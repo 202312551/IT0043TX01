@@ -1,0 +1,61 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.card{
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    border: 1px solid red;
+}
+
+p{
+    line-height: 1.5;
+    margin: 10px 0;
+
+}
+
+.image-container {
+    border: 1px solid black;
+    background-image: url(pm bg img.webp);
+    background-size: cover;
+    background-position: center;
+    padding: 30px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.details{
+    border: 1px solid green;
+    color: white;
+    padding: 10px;
+}
+
+.img{
+    width: 100%;
+}
+
+.lightblue{
+    background-color: lightblue;
+}
+
+p{
+    margin: 0;
+   
+}
+
+.container {
+    position: relative;
+    width: 300px;
+    height: 400px;
+    background-image: url(pm bg img.webp);
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 5);
+    background-position: center;
+    background-size: cover;
+    padding: 10px;
+    overflow: hidden;
+}
+
