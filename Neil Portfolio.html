@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="Styless.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <h1>Harvey Santelices</h1>
+            <button class="nav-button" onclick="toggleNav()">Menu</button>
+        </div>
+    </header>
+
+    <!-- Navigation -->
+    <nav id="main-nav">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#social">Social Media</a></li>
+            <li><a href="#faqs">FAQs</a></li>
+        </ul>
+    </nav>
+
+    <!-- Home Page -->
+    <section id="home">
+        <div class="hero">
+            <div class="profile-picture">
+                <img src="neil.jpg" alt="Profile Picture">
+            </div>
+            <h2>Hi! This is my Portfolio, I am</h2>
+            <h1>Harvey Santelices</h1>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="content">
+            <h2>About Me</h2>
+            <h3>I am Neil Harvey Santelices. You can call me Harvey for short.</h3>
+            <p>I have been interested in cycling since 2018.</p> 
+            <p>I am at peace, and it is a good exercise to be with nature.</p> 
+            <p>take inspiration for my bicycle from social media,</p>
+            <p> and for my motorcycle, it is my pastime.</p>
+            <p> Taking the course BS IT helps me be creative and explore skills that I am good at.</p>
+            <img src="neilx2.jfif" alt="Profile Picture" >
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <div class="content">
+            <h2>Previous Works</h2>
+            <div class="project">
+                <h3>TSA3</h3>
+                <p>This work is from our Technical Summative Assesment 3.</p>
+                <p>We we're task to Create an HTML file  that utilizes form and table elements</p>
+                <img src="TSA3.png" alt="TSA3">
+            </div>
+            <h3>TSA4</h3>
+            <p>This work is from our Technical Summative Assesment 4.</p>
+            <p>We we're task to replicate our work in TSA2 with a little different specifications</p>
+            <img src="TSA4'.png" alt="TSA4">
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="content">
+            <h2>Contact Information</h2>
+            <form action="#" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+            <p>Email: example@email.com</p>
+        </div>
+    </section>
+
+    <!-- Social Media Links -->
+    <section id="social">
+        <div class="content">
+            <h2>Social Media</h2>
+            <ul>
+                <li><a href="https://www.facebook.com/profile.php?id=61557921230756">Facebook</a></li>
+                <li><a href="https://202312551.github.io/IT0043TX01/">GitHub</a></li>
+                <!-- Add more social media links as needed -->
+            </ul>
+        </div>
+    </section>
+
+    <!-- FAQs Section -->
+    <section id="faqs">
+        <div class="content">
+            <h2>FAQs</h2>
+            <h3>Where are you from?</h3>
+            <p>I'm from Meycauayan, Bulacan.</p>
+            <h3>What is/are your Hobbie/s?</h3>
+            <p>My hobbies are Cycling primarily,And I also play Basketballs and Volleybals.</p>
+            <h3>What is my goal?</h3>
+            <p>One of my goal is to graduate first.</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Neil Harvey Santelices. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript for toggling navigation -->
+    <script>
+        function toggleNav() {
+            var nav = document.getElementById("main-nav");
+            nav.classList.toggle("nav-open");
+        }
+    </script>
+
+</body>
+</html>
